@@ -5,7 +5,7 @@ League of Legends: Wild Rift (a.k.a Wild Rift) is an mutiplayer online battle ar
 ### This repository will detect hero name from the screenshot capture.
 
 ### From:
-<img width="525" alt="interface" src="Eklipse/test_data/test_images/Ahri_278220660753197_round6_Ahri_06-02-2021.mp4_10_2.jpg">
+<img width="525" alt="interface" src="alldata/test_data/test_images/Ahri_278220660753197_round6_Ahri_06-02-2021.mp4_10_2.jpg">
 
 ### To: "Ahri"
 
