@@ -22,7 +22,7 @@ I just used basic pretrained ResNet18 model. Modify to match the dataset.
 #### Installation
 ```bash
 ~ git clone https://github.com/RC-Sho0/LOL-Hero-Detection.git
-~ cd LOL-Hero-Detection
+~ cd LOL-Hero-Recognition
 ~ pip install -r requirements.txt
 ```
 
