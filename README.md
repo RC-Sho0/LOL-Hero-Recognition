@@ -21,16 +21,16 @@ I just used basic pretrained ResNet18 model. Modify to match the dataset.
 ## How to use?
 #### Installation
 ```bash
-$ git clone https://github.com/RC-Sho0/LOL-Hero-Detection.git
-$ cd LOL-Hero-Detection
-$ pip install -r requirements.txt
+~ git clone https://github.com/RC-Sho0/LOL-Hero-Detection.git
+~ cd LOL-Hero-Detection
+~ pip install -r requirements.txt
 ```
 
 #### Prediction
 **You need to prepare the data folder you want to predict like "/alldata/test_data/test_images".**
 
 ```bash
-python predict.py --input_path <your_path> --output_path <path_of_predict>
+~ python predict.py --input_path <your_path> --output_path <path_of_predict>
 ```
 
 
