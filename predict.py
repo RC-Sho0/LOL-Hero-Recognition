@@ -55,7 +55,7 @@ def init(input_fol):
 
 
     ##Prepare data
-    labels = open('Eklipse/test_data/hero_names.txt','r').read().replace("Dr._M","Drm").split('\n')[:-1]
+    labels = open('alldata/test_data/hero_names.txt','r').read().replace("Dr._M","Drm").split('\n')[:-1]
     labels.sort()
     gt = os.listdir(input_fol)
 
@@ -101,7 +101,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_path",
         type=str,
-        default="Eklipse/test_data/test_images",
+        default="alldata/test_data/test_images",
         help="The path of folder you want to predict.",
     )
     parser.add_argument(
